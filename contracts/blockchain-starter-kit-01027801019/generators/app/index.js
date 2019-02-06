@@ -7,7 +7,7 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the ace ${chalk.red('generator-hyperledger-composer-1')} generator!`)
+      yosay(`Welcome to the impressive ${chalk.red('generator-hyperledger-composer')} generator!`)
     );
 
     const prompts = [
